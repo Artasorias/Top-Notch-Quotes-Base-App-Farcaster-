@@ -271,10 +271,6 @@ function generateShareImage() {
     ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
     ctx.fillText(currentQuote.book, 300, 345);
     
-    // Branding
-    ctx.font = 'bold 12px Segoe UI, sans-serif';
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
-    ctx.fillText('📚 Top Notch Quotes', 300, 385);
     
     return canvas.toDataURL('image/png');
 }
@@ -286,7 +282,7 @@ async function shareQuote() {
         return;
     }
     
-    const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}\n\n📚 Top Notch Quotes`;
+    const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}`;
     const imageDataUrl = generateShareImage();
     
     try {
