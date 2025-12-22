@@ -285,6 +285,7 @@ async function shareQuote() {
     
     const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}`;
     const miniAppUrl = 'https://top-notch-quotes-base-app-farcaster.vercel.app';
+    const imageDataUrl = generateShareImage();
     
     try {
         // Try Farcaster compose cast
@@ -298,28 +299,27 @@ async function shareQuote() {
         }
     } catch (error) {
         // Fallback to native share with image
-        if (navigator.share && navigator.canShare) {
-            try {
-                const blob = await (await fetch(imageDataUrl)).blob();
-                const file = new File([blob], 'quote.png', { type: 'image/png' });
-                
-                if (navigator.canShare({ files: [file] })) {
-                    await navigator.share({
-                        title: 'Top Notch Quote',
-                        text: shareText,
-                        files: [file]
-                    });
-                } else {
-                    await navigator.share({
-                        title: 'Top Notch Quote',
-                        text: shareText
-                    });
-                }
-            } catch (e) {
-                copyToClipboard(shareText);
+        try {
+            const response = await fetch(imageDataUrl);
+            const blob = await response.blob();
+            const file = new File([blob], 'quote.png', { type: 'image/png' });
+            
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                await navigator.share({
+                    title: 'Top Notch Quote',
+                    text: shareText + '\n\n' + miniAppUrl,
+                    files: [file]
+                });
+            } else if (navigator.share) {
+                await navigator.share({
+                    title: 'Top Notch Quote',
+                    text: shareText + '\n\n' + miniAppUrl
+                });
+            } else {
+                copyToClipboard(shareText + '\n\n' + miniAppUrl);
             }
-        } else {
-            copyToClipboard(shareText);
+        } catch (e) {
+            copyToClipboard(shareText + '\n\n' + miniAppUrl);
         }
     }
 }
