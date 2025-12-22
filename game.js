@@ -151,7 +151,7 @@ const quoteAuthor = document.getElementById('quoteAuthor');
 const quoteBook = document.getElementById('quoteBook');
 const newQuoteBtn = document.getElementById('newQuoteBtn');
 const shareBtn = document.getElementById('shareBtn');
-const downloadBtn = document.getElementById('downloadBtn');
+const copyBtn = document.getElementById('copyBtn');
 const favoriteBtn = document.getElementById('favoriteBtn');
 const shareCanvas = document.getElementById('shareCanvas');
 
@@ -377,22 +377,45 @@ newQuoteBtn.addEventListener('touchstart', (e) => {
 
 shareBtn.addEventListener('click', shareQuote);
 
-downloadBtn.addEventListener('click', downloadImage);
+copyBtn.addEventListener('click', copyImageToClipboard);
 
 favoriteBtn.addEventListener('click', toggleFavorite);
 
-// Download quote image
-function downloadImage() {
+// Copy quote image to clipboard
+async function copyImageToClipboard() {
     if (!currentQuote) {
         displayQuote(getRandomQuote());
         return;
     }
     
-    const imageDataUrl = generateShareImage();
-    const link = document.createElement('a');
-    link.download = 'quote.png';
-    link.href = imageDataUrl;
-    link.click();
+    try {
+        const imageDataUrl = generateShareImage();
+        const response = await fetch(imageDataUrl);
+        const blob = await response.blob();
+        
+        await navigator.clipboard.write([
+            new ClipboardItem({ 'image/png': blob })
+        ]);
+        
+        // Visual feedback
+        copyBtn.classList.add('copied');
+        setTimeout(() => {
+            copyBtn.classList.remove('copied');
+        }, 1500);
+        
+        // Haptic feedback
+        if (navigator.vibrate) {
+            navigator.vibrate(50);
+        }
+    } catch (err) {
+        console.error('Failed to copy image:', err);
+        // Fallback: download image
+        const imageDataUrl = generateShareImage();
+        const link = document.createElement('a');
+        link.download = 'quote.png';
+        link.href = imageDataUrl;
+        link.click();
+    }
 }
 
 // Swipe gesture for new quote
