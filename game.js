@@ -283,15 +283,15 @@ async function shareQuote() {
         return;
     }
     
-    const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}\n\nhttps://farcaster.xyz/miniapps/up-6jwWMi3pf/top-notch-quotes`;
-    const imageDataUrl = generateShareImage();
+    const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}`;
+    const miniAppUrl = 'https://top-notch-quotes-base-app-farcaster.vercel.app';
     
     try {
         // Try Farcaster compose cast
         if (sdk && sdk.actions) {
             await sdk.actions.composeCast({
                 text: shareText,
-                embeds: imageDataUrl ? [imageDataUrl] : []
+                embeds: [miniAppUrl]
             });
         } else {
             throw new Error('SDK not available');
