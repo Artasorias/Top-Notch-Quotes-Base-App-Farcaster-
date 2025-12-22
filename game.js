@@ -388,29 +388,48 @@ async function copyImageToClipboard() {
         return;
     }
     
-    const imageDataUrl = generateShareImage();
+    // Generate image on canvas
+    generateShareImage();
     
-    // Check if Clipboard API is available
+    // Try multiple clipboard methods
+    let copied = false;
+    
+    // Method 1: Using canvas.toBlob with ClipboardItem
     if (navigator.clipboard && typeof ClipboardItem !== 'undefined') {
         try {
-            const response = await fetch(imageDataUrl);
-            const blob = await response.blob();
-            
+            const blob = await new Promise(resolve => shareCanvas.toBlob(resolve, 'image/png'));
             await navigator.clipboard.write([
                 new ClipboardItem({ 'image/png': blob })
             ]);
-            
-            // Visual feedback - copied
-            showCopyFeedback('copied');
-            return;
+            copied = true;
         } catch (err) {
-            console.log('Clipboard failed, using download fallback');
+            console.log('Method 1 failed:', err);
         }
     }
     
-    // Fallback: download image
-    downloadImage(imageDataUrl);
-    showCopyFeedback('downloaded');
+    // Method 2: Try with fetch from dataURL
+    if (!copied && navigator.clipboard && typeof ClipboardItem !== 'undefined') {
+        try {
+            const dataUrl = shareCanvas.toDataURL('image/png');
+            const response = await fetch(dataUrl);
+            const blob = await response.blob();
+            await navigator.clipboard.write([
+                new ClipboardItem({ 'image/png': blob })
+            ]);
+            copied = true;
+        } catch (err) {
+            console.log('Method 2 failed:', err);
+        }
+    }
+    
+    if (copied) {
+        showCopyFeedback('copied');
+    } else {
+        // Fallback: download image
+        const imageDataUrl = shareCanvas.toDataURL('image/png');
+        downloadImage(imageDataUrl);
+        showCopyFeedback('downloaded');
+    }
 }
 
 // Download image fallback
