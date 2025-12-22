@@ -432,14 +432,24 @@ async function copyImageToClipboard() {
     }
 }
 
-// Download image fallback
+// Download image fallback - show modal for mobile
 function downloadImage(imageDataUrl) {
-    const link = document.createElement('a');
-    link.download = 'quote.png';
-    link.href = imageDataUrl;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const modal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+    const closeBtn = document.getElementById('closeModal');
+    
+    modalImage.src = imageDataUrl;
+    modal.classList.add('show');
+    
+    closeBtn.onclick = () => {
+        modal.classList.remove('show');
+    };
+    
+    modal.onclick = (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('show');
+        }
+    };
 }
 
 // Show visual feedback
