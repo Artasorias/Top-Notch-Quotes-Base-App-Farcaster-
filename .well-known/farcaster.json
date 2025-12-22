@@ -1,0 +1,28 @@
+{
+  "accountAssociation": {
+    "header": "[FARCASTER'DAN ALINACAK]",
+    "payload": "[FARCASTER'DAN ALINACAK]",
+    "signature": "[FARCASTER'DAN ALINACAK]"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Top Notch Quotes",
+    "subtitle": "Random Book Quotes",
+    "description": "Discover inspiring quotes from famous books. Get a random quote, save your favorites, and share them on Farcaster.",
+    "iconUrl": "https://[DOMAIN]/icon.png",
+    "homeUrl": "https://[DOMAIN]",
+    "imageUrl": "https://[DOMAIN]/preview.png",
+    "splashImageUrl": "https://[DOMAIN]/icon.png",
+    "splashBackgroundColor": "#0f0c29",
+    "primaryCategory": "entertainment",
+    "tags": ["quotes", "books", "inspiration"],
+    "tagline": "Daily Book Wisdom",
+    "heroImageUrl": "https://[DOMAIN]/preview.png",
+    "screenshotUrls": ["https://[DOMAIN]/preview.png"],
+    "ogTitle": "Top Notch Quotes",
+    "ogDescription": "Discover inspiring book quotes",
+    "ogImageUrl": "https://[DOMAIN]/preview.png"
+  }
+}
+
+

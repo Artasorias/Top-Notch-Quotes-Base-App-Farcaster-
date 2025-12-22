@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Notch - Icon Generator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+            background: linear-gradient(135deg, #ffd700 0%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .canvas-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 16px;
+        }
+        canvas {
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        .label {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        a {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        a:hover {
+            transform: scale(1.05);
+        }
+        .row {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Top Notch Icons</h1>
+    
+    <div class="row">
+        <div class="canvas-container">
+            <p class="label">icon.png (200x200)</p>
+            <canvas id="iconCanvas" width="200" height="200"></canvas>
+            <a id="downloadIcon" download="icon.png">Download icon.png</a>
+        </div>
+        
+        <div class="canvas-container">
+            <p class="label">preview.png (600x400)</p>
+            <canvas id="previewCanvas" width="600" height="400"></canvas>
+            <a id="downloadPreview" download="preview.png">Download preview.png</a>
+        </div>
+    </div>
+
+    <script>
+        // Generate Icon (200x200)
+        function generateIcon() {
+            const canvas = document.getElementById('iconCanvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, 200, 200);
+            gradient.addColorStop(0, '#0f0c29');
+            gradient.addColorStop(0.5, '#302b63');
+            gradient.addColorStop(1, '#24243e');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 200, 200);
+            
+            // Decorative circles
+            ctx.fillStyle = 'rgba(255, 215, 0, 0.15)';
+            ctx.beginPath();
+            ctx.arc(30, 30, 50, 0, Math.PI * 2);
+            ctx.fill();
+            
+            ctx.fillStyle = 'rgba(168, 85, 247, 0.15)';
+            ctx.beginPath();
+            ctx.arc(170, 170, 60, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Book icon
+            ctx.font = '80px serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('📚', 100, 90);
+            
+            // Quote marks
+            ctx.font = 'bold 40px Georgia';
+            ctx.fillStyle = 'rgba(255, 215, 0, 0.6)';
+            ctx.fillText('"', 45, 150);
+            ctx.fillText('"', 155, 150);
+            
+            // Star accent
+            ctx.font = '24px serif';
+            ctx.fillText('✨', 160, 40);
+            
+            return canvas.toDataURL('image/png');
+        }
+        
+        // Generate Preview (600x400)
+        function generatePreview() {
+            const canvas = document.getElementById('previewCanvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, 600, 400);
+            gradient.addColorStop(0, '#0f0c29');
+            gradient.addColorStop(0.5, '#302b63');
+            gradient.addColorStop(1, '#24243e');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 600, 400);
+            
+            // Decorative circles
+            ctx.fillStyle = 'rgba(255, 215, 0, 0.1)';
+            ctx.beginPath();
+            ctx.arc(50, 50, 100, 0, Math.PI * 2);
+            ctx.fill();
+            
+            ctx.fillStyle = 'rgba(168, 85, 247, 0.1)';
+            ctx.beginPath();
+            ctx.arc(550, 350, 120, 0, Math.PI * 2);
+            ctx.fill();
+            
+            ctx.fillStyle = 'rgba(236, 72, 153, 0.08)';
+            ctx.beginPath();
+            ctx.arc(500, 80, 80, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Quote marks
+            ctx.font = '100px Georgia';
+            ctx.fillStyle = 'rgba(255, 215, 0, 0.25)';
+            ctx.fillText('"', 60, 140);
+            ctx.fillText('"', 480, 340);
+            
+            // Book emoji
+            ctx.font = '60px serif';
+            ctx.textAlign = 'center';
+            ctx.fillText('📚', 300, 120);
+            
+            // Title
+            ctx.font = 'bold 48px Segoe UI, sans-serif';
+            const titleGradient = ctx.createLinearGradient(150, 160, 450, 160);
+            titleGradient.addColorStop(0, '#ffd700');
+            titleGradient.addColorStop(1, '#ec4899');
+            ctx.fillStyle = titleGradient;
+            ctx.fillText('Top Notch', 300, 200);
+            
+            // Subtitle
+            ctx.font = '24px Segoe UI, sans-serif';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+            ctx.fillText('Random Book Quotes', 300, 250);
+            
+            // Sample quote
+            ctx.font = 'italic 18px Segoe UI, sans-serif';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+            ctx.fillText('"Discover inspiring quotes from your favorite books"', 300, 320);
+            
+            // Sparkles
+            ctx.font = '20px serif';
+            ctx.fillText('✨', 150, 180);
+            ctx.fillText('✨', 450, 180);
+            
+            return canvas.toDataURL('image/png');
+        }
+        
+        // Initialize
+        const iconData = generateIcon();
+        const previewData = generatePreview();
+        
+        document.getElementById('downloadIcon').href = iconData;
+        document.getElementById('downloadPreview').href = previewData;
+    </script>
+</body>
+</html>
+
+

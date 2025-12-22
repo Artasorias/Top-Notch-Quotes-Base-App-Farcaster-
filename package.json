@@ -1,0 +1,13 @@
+{
+  "name": "top-notch-quotes",
+  "version": "1.0.0",
+  "description": "Random Book Quotes - Farcaster Mini App",
+  "scripts": {
+    "dev": "npx serve . -p 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
+
+

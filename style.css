@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-gradient-1: #0f0c29;
+    --bg-gradient-2: #302b63;
+    --bg-gradient-3: #24243e;
+    --card-bg: rgba(255, 255, 255, 0.08);
+    --card-border: rgba(255, 255, 255, 0.15);
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --accent-gold: #ffd700;
+    --accent-purple: #a855f7;
+    --accent-pink: #ec4899;
+    --btn-gradient-1: #667eea;
+    --btn-gradient-2: #764ba2;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 50%, var(--bg-gradient-3) 100%);
+    color: var(--text-primary);
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.app-header {
+    text-align: center;
+}
+
+.app-header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-pink) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 40px rgba(255, 215, 0, 0.3);
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-top: 4px;
+    letter-spacing: 1px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--card-border);
+    border-radius: 24px;
+    padding: 32px 24px;
+    position: relative;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote-card:active {
+    transform: scale(0.98);
+}
+
+.quote-content {
+    position: relative;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.quote-mark {
+    font-family: Georgia, serif;
+    font-size: 4rem;
+    color: var(--accent-gold);
+    opacity: 0.4;
+    position: absolute;
+    line-height: 1;
+}
+
+.quote-mark:first-of-type {
+    top: -20px;
+    left: -8px;
+}
+
+.quote-mark.closing {
+    bottom: -40px;
+    right: -8px;
+}
+
+.quote-text {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    font-weight: 400;
+    color: var(--text-primary);
+    font-style: italic;
+    transition: opacity 0.3s ease;
+}
+
+.quote-meta {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.quote-author {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--accent-gold);
+    margin-bottom: 4px;
+}
+
+.quote-book {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.favorite-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    transition: transform 0.2s ease;
+}
+
+.favorite-btn:active {
+    transform: scale(1.2);
+}
+
+.star-icon {
+    width: 28px;
+    height: 28px;
+    color: var(--text-secondary);
+    transition: color 0.3s ease, fill 0.3s ease;
+}
+
+.favorite-btn.active .star-icon {
+    color: var(--accent-gold);
+    fill: var(--accent-gold);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.primary-btn {
+    flex: 2;
+    background: linear-gradient(135deg, var(--btn-gradient-1) 0%, var(--btn-gradient-2) 100%);
+    border: none;
+    border-radius: 16px;
+    padding: 18px 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.primary-btn:active {
+    transform: scale(0.96);
+    box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+}
+
+.btn-icon {
+    font-size: 1.3rem;
+}
+
+.share-btn {
+    flex: 1;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 18px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.share-btn:active {
+    transform: scale(0.96);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.share-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.app-footer {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+/* Quote card background colors */
+.quote-card.bg-1 {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%);
+}
+
+.quote-card.bg-2 {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(16, 185, 129, 0.15) 100%);
+}
+
+.quote-card.bg-3 {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(239, 68, 68, 0.15) 100%);
+}
+
+.quote-card.bg-4 {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(236, 72, 153, 0.15) 100%);
+}
+
+.quote-card.bg-5 {
+    background: linear-gradient(135deg, rgba(20, 184, 166, 0.15) 0%, rgba(59, 130, 246, 0.15) 100%);
+}
+
+/* Loading animation */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.loading .quote-text {
+    animation: pulse 1.5s infinite;
+}
+
+/* Responsive */
+@media (max-width: 380px) {
+    .app-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .quote-text {
+        font-size: 1rem;
+    }
+    
+    .quote-card {
+        padding: 24px 20px;
+        min-height: 200px;
+    }
+    
+    .primary-btn {
+        padding: 16px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-height: 800px) {
+    .quote-card {
+        min-height: 280px;
+    }
+}
+
+
