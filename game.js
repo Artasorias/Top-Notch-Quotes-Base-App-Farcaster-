@@ -151,6 +151,7 @@ const quoteAuthor = document.getElementById('quoteAuthor');
 const quoteBook = document.getElementById('quoteBook');
 const newQuoteBtn = document.getElementById('newQuoteBtn');
 const shareBtn = document.getElementById('shareBtn');
+const downloadBtn = document.getElementById('downloadBtn');
 const favoriteBtn = document.getElementById('favoriteBtn');
 const shareCanvas = document.getElementById('shareCanvas');
 
@@ -376,7 +377,23 @@ newQuoteBtn.addEventListener('touchstart', (e) => {
 
 shareBtn.addEventListener('click', shareQuote);
 
+downloadBtn.addEventListener('click', downloadImage);
+
 favoriteBtn.addEventListener('click', toggleFavorite);
+
+// Download quote image
+function downloadImage() {
+    if (!currentQuote) {
+        displayQuote(getRandomQuote());
+        return;
+    }
+    
+    const imageDataUrl = generateShareImage();
+    const link = document.createElement('a');
+    link.download = 'quote.png';
+    link.href = imageDataUrl;
+    link.click();
+}
 
 // Swipe gesture for new quote
 let touchStartX = 0;
