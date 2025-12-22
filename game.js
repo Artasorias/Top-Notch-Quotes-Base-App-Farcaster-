@@ -287,24 +287,37 @@ async function shareQuote() {
     }
     
     const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}\n\n📚 Top Notch Quotes`;
+    const imageDataUrl = generateShareImage();
     
     try {
         // Try Farcaster compose cast
         if (sdk && sdk.actions) {
             await sdk.actions.composeCast({
-                text: shareText
+                text: shareText,
+                embeds: imageDataUrl ? [imageDataUrl] : []
             });
         } else {
             throw new Error('SDK not available');
         }
     } catch (error) {
-        // Fallback to native share or copy
-        if (navigator.share) {
+        // Fallback to native share with image
+        if (navigator.share && navigator.canShare) {
             try {
-                await navigator.share({
-                    title: 'Top Notch Quote',
-                    text: shareText
-                });
+                const blob = await (await fetch(imageDataUrl)).blob();
+                const file = new File([blob], 'quote.png', { type: 'image/png' });
+                
+                if (navigator.canShare({ files: [file] })) {
+                    await navigator.share({
+                        title: 'Top Notch Quote',
+                        text: shareText,
+                        files: [file]
+                    });
+                } else {
+                    await navigator.share({
+                        title: 'Top Notch Quote',
+                        text: shareText
+                    });
+                }
             } catch (e) {
                 copyToClipboard(shareText);
             }
