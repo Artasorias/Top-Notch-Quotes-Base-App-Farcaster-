@@ -283,7 +283,7 @@ async function shareQuote() {
         return;
     }
     
-    const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}\n\nhttps://top-notch-quotes-base-app-farcaster.vercel.app`;
+    const shareText = `"${currentQuote.text}"\n\n— ${currentQuote.author}, ${currentQuote.book}\n\nhttps://farcaster.xyz/miniapps/up-6jwWMi3pf/top-notch-quotes`;
     const imageDataUrl = generateShareImage();
     
     try {
