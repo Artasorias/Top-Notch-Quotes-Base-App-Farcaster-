@@ -254,6 +254,11 @@ body {
     border-color: rgba(34, 197, 94, 0.5);
 }
 
+.copy-btn.downloaded {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.5);
+}
+
 .copy-btn svg,
 .share-btn svg {
     width: 20px;

@@ -388,34 +388,53 @@ async function copyImageToClipboard() {
         return;
     }
     
-    try {
-        const imageDataUrl = generateShareImage();
-        const response = await fetch(imageDataUrl);
-        const blob = await response.blob();
-        
-        await navigator.clipboard.write([
-            new ClipboardItem({ 'image/png': blob })
-        ]);
-        
-        // Visual feedback
-        copyBtn.classList.add('copied');
-        setTimeout(() => {
-            copyBtn.classList.remove('copied');
-        }, 1500);
-        
-        // Haptic feedback
-        if (navigator.vibrate) {
-            navigator.vibrate(50);
+    const imageDataUrl = generateShareImage();
+    
+    // Check if Clipboard API is available
+    if (navigator.clipboard && typeof ClipboardItem !== 'undefined') {
+        try {
+            const response = await fetch(imageDataUrl);
+            const blob = await response.blob();
+            
+            await navigator.clipboard.write([
+                new ClipboardItem({ 'image/png': blob })
+            ]);
+            
+            // Visual feedback - copied
+            showCopyFeedback('copied');
+            return;
+        } catch (err) {
+            console.log('Clipboard failed, using download fallback');
         }
-    } catch (err) {
-        console.error('Failed to copy image:', err);
-        // Fallback: download image
-        const imageDataUrl = generateShareImage();
-        const link = document.createElement('a');
-        link.download = 'quote.png';
-        link.href = imageDataUrl;
-        link.click();
     }
+    
+    // Fallback: download image
+    downloadImage(imageDataUrl);
+    showCopyFeedback('downloaded');
+}
+
+// Download image fallback
+function downloadImage(imageDataUrl) {
+    const link = document.createElement('a');
+    link.download = 'quote.png';
+    link.href = imageDataUrl;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+// Show visual feedback
+function showCopyFeedback(type) {
+    copyBtn.classList.add(type === 'copied' ? 'copied' : 'downloaded');
+    
+    // Haptic feedback
+    if (navigator.vibrate) {
+        navigator.vibrate(50);
+    }
+    
+    setTimeout(() => {
+        copyBtn.classList.remove('copied', 'downloaded');
+    }, 1500);
 }
 
 // Swipe gesture for new quote
