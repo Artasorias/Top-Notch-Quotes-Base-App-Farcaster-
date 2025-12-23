@@ -12,6 +12,7 @@ let sdk = null;
 
 // Famous book quotes collection
 const quotes = [
+    // Original quotes
     {
         text: "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
         author: "Antoine de Saint-Exupéry",
@@ -28,24 +29,21 @@ const quotes = [
         book: "Harry Potter and the Sorcerer's Stone"
     },
     {
-        text: "Whatever our souls are made of, his and mine are the same.",
-        author: "Emily Brontë",
-        book: "Wuthering Heights"
+        text: "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
+        author: "J.K. Rowling",
+        book: "Harry Potter and the Prisoner of Azkaban"
     },
+    {
+        text: "It matters not what someone is born, but what they grow to be.",
+        author: "J.K. Rowling",
+        book: "Harry Potter and the Goblet of Fire"
+    },
+    
+    // J.R.R. Tolkien
     {
         text: "All we have to decide is what to do with the time that is given us.",
         author: "J.R.R. Tolkien",
         book: "The Fellowship of the Ring"
-    },
-    {
-        text: "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-        author: "Jane Austen",
-        book: "Pride and Prejudice"
-    },
-    {
-        text: "The only way out of the labyrinth of suffering is to forgive.",
-        author: "John Green",
-        book: "Looking for Alaska"
     },
     {
         text: "Not all those who wander are lost.",
@@ -53,29 +51,501 @@ const quotes = [
         book: "The Fellowship of the Ring"
     },
     {
-        text: "We accept the love we think we deserve.",
-        author: "Stephen Chbosky",
-        book: "The Perks of Being a Wallflower"
-    },
-    {
-        text: "Beware; for I am fearless, and therefore powerful.",
-        author: "Mary Shelley",
-        book: "Frankenstein"
-    },
-    {
-        text: "The only thing we have to fear is fear itself.",
-        author: "Franklin D. Roosevelt",
-        book: "First Inaugural Address"
-    },
-    {
         text: "There is some good in this world, and it's worth fighting for.",
         author: "J.R.R. Tolkien",
         book: "The Two Towers"
     },
     {
-        text: "It matters not what someone is born, but what they grow to be.",
-        author: "J.K. Rowling",
-        book: "Harry Potter and the Goblet of Fire"
+        text: "Even the smallest person can change the course of the future.",
+        author: "J.R.R. Tolkien",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair.",
+        author: "J.R.R. Tolkien",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "Faithless is he that says farewell when the road darkens.",
+        author: "J.R.R. Tolkien",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "I will not say: do not weep; for not all tears are an evil.",
+        author: "J.R.R. Tolkien",
+        book: "The Return of the King"
+    },
+    
+    // Gandalf
+    {
+        text: "A wizard is never late, nor is he early, he arrives precisely when he means to.",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out death in judgement.",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "You shall not pass!",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "End? No, the journey doesn't end here. Death is just another path, one that we all must take.",
+        author: "Gandalf",
+        book: "The Return of the King"
+    },
+    
+    // Albert Einstein
+    {
+        text: "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+        author: "Albert Einstein",
+        book: "The Saturday Evening Post"
+    },
+    {
+        text: "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        author: "Albert Einstein",
+        book: "Letter to his son Eduard"
+    },
+    {
+        text: "The important thing is not to stop questioning. Curiosity has its own reason for existence.",
+        author: "Albert Einstein",
+        book: "LIFE Magazine"
+    },
+    {
+        text: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Try not to become a man of success, but rather try to become a man of value.",
+        author: "Albert Einstein",
+        book: "LIFE Magazine"
+    },
+    
+    // Leonardo da Vinci
+    {
+        text: "Simplicity is the ultimate sophistication.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Learning never exhausts the mind.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "The noblest pleasure is the joy of understanding.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "I have been impressed with the urgency of doing. Knowing is not enough; we must apply.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Art is never finished, only abandoned.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    
+    // Arthur Conan Doyle / Sherlock Holmes
+    {
+        text: "When you have eliminated the impossible, whatever remains, however improbable, must be the truth.",
+        author: "Arthur Conan Doyle",
+        book: "The Sign of Four"
+    },
+    {
+        text: "The world is full of obvious things which nobody by any chance ever observes.",
+        author: "Arthur Conan Doyle",
+        book: "The Hound of the Baskervilles"
+    },
+    {
+        text: "There is nothing more deceptive than an obvious fact.",
+        author: "Arthur Conan Doyle",
+        book: "The Boscombe Valley Mystery"
+    },
+    {
+        text: "Education never ends, Watson. It is a series of lessons, with the greatest for the last.",
+        author: "Arthur Conan Doyle",
+        book: "His Last Bow"
+    },
+    
+    // Douglas Adams
+    {
+        text: "Don't Panic.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "The answer to the ultimate question of life, the universe and everything is 42.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "I may not have gone where I intended to go, but I think I have ended up where I needed to be.",
+        author: "Douglas Adams",
+        book: "The Long Dark Tea-Time of the Soul"
+    },
+    {
+        text: "Time is an illusion. Lunchtime doubly so.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.",
+        author: "Douglas Adams",
+        book: "Mostly Harmless"
+    },
+    
+    // Mustafa Kemal Atatürk
+    {
+        text: "Peace at home, peace in the world.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "The future is in the skies.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Unless a nation's life faces peril, war is murder.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "A nation devoid of art and artists cannot have a full existence.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Heroes who shed their blood and lost their lives! You are now lying in the soil of a friendly country. Therefore rest in peace.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Gallipoli Memorial"
+    },
+    
+    // Satoshi Nakamoto
+    {
+        text: "If you don't believe it or don't get it, I don't have the time to try to convince you, sorry.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Forum"
+    },
+    {
+        text: "The root problem with conventional currency is all the trust that's required to make it work.",
+        author: "Satoshi Nakamoto",
+        book: "P2P Foundation"
+    },
+    {
+        text: "It might make sense just to get some in case it catches on.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Mailing List"
+    },
+    
+    // George R.R. Martin
+    {
+        text: "A reader lives a thousand lives before he dies. The man who never reads lives only one.",
+        author: "George R.R. Martin",
+        book: "A Dance with Dragons"
+    },
+    {
+        text: "When you play the game of thrones, you win or you die. There is no middle ground.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "The things we love destroy us every time, lad. Remember that.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "Fear cuts deeper than swords.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "The man who fears losing has already lost.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    
+    // Andrzej Sapkowski / Geralt
+    {
+        text: "Evil is evil. Lesser, greater, middling, it's all the same. If I'm to choose between one evil and another, I'd rather not choose at all.",
+        author: "Andrzej Sapkowski",
+        book: "The Last Wish"
+    },
+    {
+        text: "People like to invent monsters and monstrosities. Then they seem less monstrous themselves.",
+        author: "Andrzej Sapkowski",
+        book: "The Last Wish"
+    },
+    {
+        text: "Something ends, something begins.",
+        author: "Andrzej Sapkowski",
+        book: "Something Ends, Something Begins"
+    },
+    {
+        text: "If I'm to choose between one evil and another, I'd rather not choose at all.",
+        author: "Geralt of Rivia",
+        book: "The Last Wish"
+    },
+    {
+        text: "Hatred and prejudice will never be eradicated. And witch hunts will never be about witches.",
+        author: "Geralt of Rivia",
+        book: "The Last Wish"
+    },
+    
+    // Franz Kafka
+    {
+        text: "A book must be the axe for the frozen sea within us.",
+        author: "Franz Kafka",
+        book: "Letter to Oskar Pollak"
+    },
+    {
+        text: "Don't bend; don't water it down; don't try to make it logical; don't edit your own soul according to the fashion.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "I am free and that is why I am lost.",
+        author: "Franz Kafka",
+        book: "The Trial"
+    },
+    {
+        text: "Start with what is right rather than what is acceptable.",
+        author: "Franz Kafka",
+        book: "Diaries"
+    },
+    
+    // Hari Seldon (Isaac Asimov)
+    {
+        text: "Violence is the last refuge of the incompetent.",
+        author: "Hari Seldon",
+        book: "Foundation"
+    },
+    {
+        text: "The fall of Empire, gentlemen, is a massive thing, however, and not easily fought.",
+        author: "Hari Seldon",
+        book: "Foundation"
+    },
+    
+    // Isaac Asimov
+    {
+        text: "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
+        author: "Isaac Asimov",
+        book: "Isaac Asimov's Book of Science and Nature Quotations"
+    },
+    {
+        text: "Never let your sense of morals prevent you from doing what is right.",
+        author: "Isaac Asimov",
+        book: "Foundation"
+    },
+    {
+        text: "The most exciting phrase to hear in science is not 'Eureka!' but 'That's funny...'",
+        author: "Isaac Asimov",
+        book: "Attributed"
+    },
+    {
+        text: "If knowledge can create problems, it is not through ignorance that we can solve them.",
+        author: "Isaac Asimov",
+        book: "Asimov's Guide to Science"
+    },
+    
+    // Carl Sagan
+    {
+        text: "Somewhere, something incredible is waiting to be known.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "We are a way for the universe to know itself.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "For small creatures such as we the vastness is bearable only through love.",
+        author: "Carl Sagan",
+        book: "Contact"
+    },
+    {
+        text: "The cosmos is within us. We are made of star-stuff.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "Extinction is the rule. Survival is the exception.",
+        author: "Carl Sagan",
+        book: "The Varieties of Scientific Experience"
+    },
+    
+    // Nikola Tesla
+    {
+        text: "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.",
+        author: "Nikola Tesla",
+        book: "Attributed"
+    },
+    {
+        text: "The present is theirs; the future, for which I really worked, is mine.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    {
+        text: "I don't care that they stole my idea. I care that they don't have any of their own.",
+        author: "Nikola Tesla",
+        book: "Attributed"
+    },
+    {
+        text: "Be alone, that is the secret of invention; be alone, that is when ideas are born.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    
+    // Arthur C. Clarke
+    {
+        text: "Any sufficiently advanced technology is indistinguishable from magic.",
+        author: "Arthur C. Clarke",
+        book: "Profiles of the Future"
+    },
+    {
+        text: "Two possibilities exist: either we are alone in the Universe or we are not. Both are equally terrifying.",
+        author: "Arthur C. Clarke",
+        book: "Attributed"
+    },
+    {
+        text: "The only way to discover the limits of the possible is to go beyond them into the impossible.",
+        author: "Arthur C. Clarke",
+        book: "Profiles of the Future"
+    },
+    {
+        text: "I'm sure the universe is full of intelligent life. It's just been too intelligent to come here.",
+        author: "Arthur C. Clarke",
+        book: "Interview"
+    },
+    
+    // Frank Herbert
+    {
+        text: "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "The mystery of life isn't a problem to solve, but a reality to experience.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Without change something sleeps inside us, and seldom awakens. The sleeper must awaken.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "The people who can destroy a thing, they control it.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "There is no escape—we pay for the violence of our ancestors.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    
+    // Honoré de Balzac
+    {
+        text: "Behind every great fortune lies a great crime.",
+        author: "Honoré de Balzac",
+        book: "Le Père Goriot"
+    },
+    {
+        text: "The more one judges, the less one loves.",
+        author: "Honoré de Balzac",
+        book: "Physiologie du mariage"
+    },
+    {
+        text: "Solitude is fine, but you need someone to tell you that solitude is fine.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    
+    // Liu Cixin
+    {
+        text: "The universe is a dark forest. Every civilization is an armed hunter stalking through the trees.",
+        author: "Liu Cixin",
+        book: "The Dark Forest"
+    },
+    {
+        text: "Weakness and ignorance are not barriers to survival, but arrogance is.",
+        author: "Liu Cixin",
+        book: "The Three-Body Problem"
+    },
+    {
+        text: "In the long river of time, everything is just a fleeting moment.",
+        author: "Liu Cixin",
+        book: "The Three-Body Problem"
+    },
+    {
+        text: "To effectively contain a civilization's development and disarm it across such a long span of time, there is only one way: kill its science.",
+        author: "Liu Cixin",
+        book: "The Three-Body Problem"
+    },
+    
+    // John Verdon
+    {
+        text: "The worst pain in our lives comes from the mistakes we refuse to acknowledge.",
+        author: "John Verdon",
+        book: "Think of a Number"
+    },
+    {
+        text: "The person I think I am, and the person other people think I am, may be very different from who I actually am.",
+        author: "John Verdon",
+        book: "Think of a Number"
+    },
+    
+    // George Lucas / Star Wars
+    {
+        text: "Do or do not. There is no try.",
+        author: "George Lucas",
+        book: "Star Wars: The Empire Strikes Back"
+    },
+    {
+        text: "Your focus determines your reality.",
+        author: "George Lucas",
+        book: "Star Wars: The Phantom Menace"
+    },
+    {
+        text: "The Force will be with you. Always.",
+        author: "George Lucas",
+        book: "Star Wars: A New Hope"
+    },
+    {
+        text: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
+        author: "George Lucas",
+        book: "Star Wars: The Phantom Menace"
+    },
+    
+    // Classic quotes
+    {
+        text: "Whatever our souls are made of, his and mine are the same.",
+        author: "Emily Brontë",
+        book: "Wuthering Heights"
+    },
+    {
+        text: "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+        author: "Jane Austen",
+        book: "Pride and Prejudice"
+    },
+    {
+        text: "Beware; for I am fearless, and therefore powerful.",
+        author: "Mary Shelley",
+        book: "Frankenstein"
     },
     {
         text: "The world breaks everyone, and afterward, many are strong at the broken places.",
@@ -88,54 +558,9 @@ const quotes = [
         book: "The Soul of Man Under Socialism"
     },
     {
-        text: "Stay gold, Ponyboy. Stay gold.",
-        author: "S.E. Hinton",
-        book: "The Outsiders"
-    },
-    {
-        text: "And so we go on, boats against the current, borne back ceaselessly into the past.",
-        author: "F. Scott Fitzgerald",
-        book: "The Great Gatsby"
-    },
-    {
         text: "I am no bird; and no net ensnares me.",
         author: "Charlotte Brontë",
         book: "Jane Eyre"
-    },
-    {
-        text: "We are all fools in love.",
-        author: "Jane Austen",
-        book: "Pride and Prejudice"
-    },
-    {
-        text: "The heart was made to be broken.",
-        author: "Oscar Wilde",
-        book: "De Profundis"
-    },
-    {
-        text: "In the middle of difficulty lies opportunity.",
-        author: "Albert Einstein",
-        book: "Letter to a Friend"
-    },
-    {
-        text: "Happiness can be found even in the darkest of times, if one only remembers to turn on the light.",
-        author: "J.K. Rowling",
-        book: "Harry Potter and the Prisoner of Azkaban"
-    },
-    {
-        text: "The finest qualities of our nature, like the bloom on fruits, can be preserved only by the most delicate handling.",
-        author: "Henry David Thoreau",
-        book: "Walden"
-    },
-    {
-        text: "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
-        author: "Dr. Seuss",
-        book: "Oh, The Places You'll Go!"
-    },
-    {
-        text: "One cannot think well, love well, sleep well, if one has not dined well.",
-        author: "Virginia Woolf",
-        book: "A Room of One's Own"
     }
 ];
 
