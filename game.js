@@ -202,12 +202,122 @@ const quotes = [
         book: "Notebooks"
     },
     {
-        text: "I have been impressed with the urgency of doing. Knowing is not enough; we must apply.",
+        text: "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
         author: "Leonardo da Vinci",
         book: "Notebooks"
     },
     {
         text: "Art is never finished, only abandoned.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Painting is poetry that is seen rather than felt, and poetry is painting that is felt rather than seen.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "A painter should begin every canvas with a wash of black, because all things in nature are dark except where exposed by the light.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Once you have tasted flight, you will forever walk the earth with your eyes turned skyward, for there you have been, and there you will always long to return.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Study without desire spoils the memory, and it retains nothing that it takes in.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Nothing strengthens authority so much as silence.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "The painter has the Universe in his mind and hands.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "I love those who can smile in trouble, who can gather strength from distress, and grow brave by reflection.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "One can have no smaller or greater mastery than mastery of oneself.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Nothing can be loved or hated unless it is first understood.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "The smallest feline is a masterpiece.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "As a well spent day brings happy sleep, so life well used brings happy death.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "If you are alone you belong entirely to yourself. If you are accompanied by even one companion you belong only half to yourself.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "The knowledge of all things is possible.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "The greatest deception men suffer is from their own opinions.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "There are three classes of people: those who see, those who see when they are shown, and those who do not see.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "Study the science of art. Study the art of science. Develop your senses - especially learn how to see. Realize that everything connects to everything else.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "It is easier to resist at the beginning than at the end.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "The deeper the feeling, the greater the pain.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "As you cannot do what you want, want what you can do.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "I thought I was learning to live; I was only learning to die.",
+        author: "Leonardo da Vinci",
+        book: "Notebooks"
+    },
+    {
+        text: "He who cannot establish dominion over himself will have no dominion over others.",
         author: "Leonardo da Vinci",
         book: "Notebooks"
     },
