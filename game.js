@@ -578,14 +578,104 @@ const quotes = [
         book: "Speech"
     },
     {
-        text: "A nation devoid of art and artists cannot have a full existence.",
+        text: "Everything we see in the world is the creative work of women.",
         author: "Mustafa Kemal Atatürk",
         book: "Speech"
     },
     {
-        text: "Heroes who shed their blood and lost their lives! You are now lying in the soil of a friendly country. Therefore rest in peace.",
+        text: "My people are going to learn the principles of democracy, the dictates of truth and the teachings of science. Superstition must go.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Heroes who shed their blood and lost their lives! You are now lying in the soil of a friendly country. Therefore rest in peace. There is no difference between the Johnnies and Mehmets to us where they lie side by side here in this country of ours.",
         author: "Mustafa Kemal Atatürk",
         book: "Gallipoli Memorial"
+    },
+    {
+        text: "Teachers are the one and only people who save nations.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Those who use religion for their own benefit are detestable. We are against such a situation and will not allow it.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "To see me does not necessarily mean to see my face. To understand my thoughts is to have seen me.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Is it possible that if half of a mass is tied to earth with chains and the other half can soar into skies?",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Sovereignty is not given, it is taken.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Our true mentor in life is science.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Mankind is a single body and each nation a part of that body. We must never say 'What does it matter to me if some part of the world is ailing?'",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Science is the most reliable guide in life.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Victory is for those who can say 'Victory is mine'. Success is for those who can begin saying 'I will succeed' and say 'I have succeeded' in the end.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "The biggest battle is the war against ignorance.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "If one day, my words are against science, choose science.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Authority, without any condition and reservation, belongs to the nation.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Every nation has the right to demand proper treatment and no country should violate the territory of any other country.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "There are two Mustafa Kemals. One the flesh-and-blood Mustafa Kemal who now stands before you and who will pass away. The other is you, all of you here who will go to the far corners of our land to spread the ideals.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Turkey's true master is the peasant.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "Persons who know that they will not be able to rest along the way when they took a path, will never get tired.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
+    },
+    {
+        text: "He is a weak ruler who needs religion to uphold his government; it is as if he would catch his people in a trap.",
+        author: "Mustafa Kemal Atatürk",
+        book: "Speech"
     },
     
     // Satoshi Nakamoto
