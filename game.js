@@ -460,6 +460,106 @@ const quotes = [
         author: "Douglas Adams",
         book: "Mostly Harmless"
     },
+    {
+        text: "I love deadlines. I love the whooshing noise they make as they go by.",
+        author: "Douglas Adams",
+        book: "The Salmon of Doubt"
+    },
+    {
+        text: "In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.",
+        author: "Douglas Adams",
+        book: "The Restaurant at the End of the Universe"
+    },
+    {
+        text: "I refuse to answer that question on the grounds that I don't know the answer.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.",
+        author: "Douglas Adams",
+        book: "The Restaurant at the End of the Universe"
+    },
+    {
+        text: "The fact that we live at the bottom of a deep gravity well, on the surface of a gas covered planet going around a nuclear fireball 90 million miles away and think this to be normal is obviously some indication of how skewed our perspective tends to be.",
+        author: "Douglas Adams",
+        book: "The Salmon of Doubt"
+    },
+    {
+        text: "The knack of flying lies in learning how to throw yourself at the ground and miss.",
+        author: "Douglas Adams",
+        book: "Life, the Universe and Everything"
+    },
+    {
+        text: "Would it save you a lot of time if I just gave up and went mad now?",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.'",
+        author: "Douglas Adams",
+        book: "The Salmon of Doubt"
+    },
+    {
+        text: "Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.",
+        author: "Douglas Adams",
+        book: "Dirk Gently's Holistic Detective Agency"
+    },
+    {
+        text: "Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too?",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "The ships hung in the sky in much the same way that bricks don't.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "Anyone who is capable of getting themselves made President should on no account be allowed to do the job.",
+        author: "Douglas Adams",
+        book: "The Restaurant at the End of the Universe"
+    },
+    {
+        text: "He felt that his whole life was some kind of dream and he sometimes wondered whose it was and whether they were enjoying it.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "Nothing travels faster than the speed of light, with the possible exception of bad news, which obeys its own special laws.",
+        author: "Douglas Adams",
+        book: "Mostly Harmless"
+    },
+    {
+        text: "I'd far rather be happy than right any day.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "Space is big. You just won't believe how vastly, hugely, mind-bogglingly big it is.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "If there's anything more important than my ego around, I want it caught and shot now.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "You live and learn. At any rate, you live.",
+        author: "Douglas Adams",
+        book: "Mostly Harmless"
+    },
+    {
+        text: "This must be Thursday. I never could get the hang of Thursdays.",
+        author: "Douglas Adams",
+        book: "The Hitchhiker's Guide to the Galaxy"
+    },
+    {
+        text: "I'd take the awe of understanding over the awe of ignorance any day.",
+        author: "Douglas Adams",
+        book: "The Salmon of Doubt"
+    },
     
     // Mustafa Kemal Atatürk
     {
