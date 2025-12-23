@@ -184,6 +184,121 @@ const quotes = [
         author: "Albert Einstein",
         book: "LIFE Magazine"
     },
+    {
+        text: "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "If you can't explain it to a six year old, you don't understand it yourself.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Logic will get you from A to Z; imagination will get you everywhere.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Anyone who has never made a mistake has never tried anything new.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "I speak to everyone in the same way, whether he is the garbage man or the president of the university.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Never memorize something that you can look up.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That's relativity.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "A clever person solves a problem. A wise person avoids it.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Any fool can know. The point is to understand.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Science without religion is lame, religion without science is blind.",
+        author: "Albert Einstein",
+        book: "Science, Philosophy and Religion"
+    },
+    {
+        text: "Reality is merely an illusion, albeit a very persistent one.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "If we knew what it was we were doing, it would not be called research, would it?",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "I have no special talents. I am only passionately curious.",
+        author: "Albert Einstein",
+        book: "Letter to Carl Seelig"
+    },
+    {
+        text: "The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science.",
+        author: "Albert Einstein",
+        book: "The World As I See It"
+    },
+    {
+        text: "I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.",
+        author: "Albert Einstein",
+        book: "Interview"
+    },
+    {
+        text: "If I were not a physicist, I would probably be a musician. I often think in music. I live my daydreams in music.",
+        author: "Albert Einstein",
+        book: "Interview"
+    },
+    {
+        text: "You never fail until you stop trying.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Great spirits have always encountered violent opposition from mediocre minds.",
+        author: "Albert Einstein",
+        book: "Letter to Morris Raphael Cohen"
+    },
+    {
+        text: "The measure of intelligence is the ability to change.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "It is not that I'm so smart. But I stay with the questions much longer.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
+    {
+        text: "Gravitation is not responsible for people falling in love.",
+        author: "Albert Einstein",
+        book: "Attributed"
+    },
     
     // Leonardo da Vinci
     {
