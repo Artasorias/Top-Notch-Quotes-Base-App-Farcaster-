@@ -1698,7 +1698,7 @@ const quotes = [
     
     // Frank Herbert
     {
-        text: "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration.",
+        text: "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me.",
         author: "Frank Herbert",
         book: "Dune"
     },
@@ -1721,6 +1721,106 @@ const quotes = [
         text: "There is no escape—we pay for the violence of our ancestors.",
         author: "Frank Herbert",
         book: "Dune"
+    },
+    {
+        text: "There is no real ending. It's just the place where you stop the story.",
+        author: "Frank Herbert",
+        book: "Attributed"
+    },
+    {
+        text: "Seek freedom and become captive of your desires. Seek discipline and find your liberty.",
+        author: "Frank Herbert",
+        book: "Chapterhouse: Dune"
+    },
+    {
+        text: "Deep in the human unconscious is a pervasive need for a logical universe that makes sense. But the real universe is always one step beyond logic.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "What do you despise? By this are you truly known.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Absolute power does not corrupt absolutely, absolute power attracts the corruptible.",
+        author: "Frank Herbert",
+        book: "Attributed"
+    },
+    {
+        text: "When religion and politics travel in the same cart, the riders believe nothing can stand in their way.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "It is so shocking to find out how many people do not believe that they can learn, and how many more believe learning to be difficult.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "It is impossible to live in the past, difficult to live in the present and a waste to live in the future.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "The mind commands the body and it obeys. The mind orders itself and meets resistance.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Hope clouds observation.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Education is no substitute for intelligence.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Once men turned their thinking over to machines in the hope that this would set them free. But that only permitted other men with machines to enslave them.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "He who controls the spice controls the universe.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "A process cannot be understood by stopping it. Understanding must move with the flow of the process, must join it and flow with it.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Truth suffers from too much analysis.",
+        author: "Frank Herbert",
+        book: "Dune Messiah"
+    },
+    {
+        text: "Belief can be manipulated. Only knowledge is dangerous.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Survival is the ability to swim in strange water.",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Try looking into that place where you dare not look! You'll find me there, staring out at you!",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "What has mood to do with it? You fight when the necessity arises—no matter the mood!",
+        author: "Frank Herbert",
+        book: "Dune"
+    },
+    {
+        text: "Do actions agree with words? There's your measure of reliability. Never confine yourself to the words.",
+        author: "Frank Herbert",
+        book: "Chapterhouse: Dune"
     },
     
     // Honoré de Balzac
