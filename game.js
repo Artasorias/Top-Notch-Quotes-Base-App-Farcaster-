@@ -757,7 +757,7 @@ const quotes = [
         book: "A Game of Thrones"
     },
     {
-        text: "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness.",
+        text: "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armour yourself in it, and it will never be used to hurt you.",
         author: "George R.R. Martin",
         book: "A Game of Thrones"
     },
@@ -767,9 +767,119 @@ const quotes = [
         book: "A Game of Thrones"
     },
     {
-        text: "The man who fears losing has already lost.",
+        text: "A mind needs books as a sword needs a whetstone, if it is to keep its edge.",
         author: "George R.R. Martin",
         book: "A Game of Thrones"
+    },
+    {
+        text: "Sleep is good, and books are better.",
+        author: "George R.R. Martin",
+        book: "A Clash of Kings"
+    },
+    {
+        text: "Can a man still be brave if he's afraid? That is the only time a man can be brave.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "Some old wounds never truly heal, and bleed again at the slightest word.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "Winter is coming.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "When the snows fall and the white winds blow, the lone wolf dies but the pack survives.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "The man who passes the sentence should swing the sword. If you would take a man's life, you owe it to him to look into his eyes and hear his final words.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "Most men would rather deny a hard truth than face it.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "Death is so terribly final, while life is full of possibilities.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "What is honor compared to a woman's love? What is duty against the feel of a newborn son in your arms... Wind and words. We are only human, and the gods have fashioned us for love.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "People often claim to hunger for truth, but seldom like the taste when it's served up.",
+        author: "George R.R. Martin",
+        book: "A Clash of Kings"
+    },
+    {
+        text: "Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "I will hurt you for this. A day will come when you think yourself safe and happy, and suddenly your joy will turn to ashes in your mouth, and you'll know the debt is paid.",
+        author: "George R.R. Martin",
+        book: "A Clash of Kings"
+    },
+    {
+        text: "Once you've accepted your flaws, no one can use them against you.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "And I have a tender spot in my heart for cripples and bastards and broken things.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "They can keep their heaven. When I die, I'd sooner go to Middle-earth.",
+        author: "George R.R. Martin",
+        book: "Interview"
+    },
+    {
+        text: "If I look back I am lost.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "I have lived a thousand lives and I've loved a thousand loves. I've walked on distant worlds and seen the end of time. Because I read.",
+        author: "George R.R. Martin",
+        book: "Interview"
+    },
+    {
+        text: "When you tear out a man's tongue, you are not proving him a liar, you're only telling the world that you fear what he might say.",
+        author: "George R.R. Martin",
+        book: "A Clash of Kings"
+    },
+    {
+        text: "It is one thing to be clever and another to be wise.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "Nothing burns like the cold.",
+        author: "George R.R. Martin",
+        book: "A Game of Thrones"
+    },
+    {
+        text: "My skin has turned to porcelain, to ivory, to steel.",
+        author: "George R.R. Martin",
+        book: "A Storm of Swords"
+    },
+    {
+        text: "Every man must die, Jon Snow. But first he must live.",
+        author: "George R.R. Martin",
+        book: "A Storm of Swords"
     },
     
     // Andrzej Sapkowski / Geralt
