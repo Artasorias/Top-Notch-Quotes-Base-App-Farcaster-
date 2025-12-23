@@ -1296,6 +1296,91 @@ const quotes = [
         author: "Carl Sagan",
         book: "The Varieties of Scientific Experience"
     },
+    {
+        text: "Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, the carbon in our apple pies were made in the interiors of collapsing stars. We are made of starstuff.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "Science is not only compatible with spirituality; it is a profound source of spirituality.",
+        author: "Carl Sagan",
+        book: "The Demon-Haunted World"
+    },
+    {
+        text: "One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years. To read is to voyage through time.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "If you wish to make an apple pie from scratch, you must first invent the universe.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "For me, it is far better to grasp the Universe as it really is than to persist in delusion, however satisfying and reassuring.",
+        author: "Carl Sagan",
+        book: "The Demon-Haunted World"
+    },
+    {
+        text: "Extraordinary claims require extraordinary evidence.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "We are like butterflies who flutter for a day and think it is forever.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "Imagination will often carry us to worlds that never were, but without it we go nowhere.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "It pays to keep an open mind, but not so open your brains fall out.",
+        author: "Carl Sagan",
+        book: "The Demon-Haunted World"
+    },
+    {
+        text: "The universe is a pretty big place. If it's just us, seems like an awful waste of space.",
+        author: "Carl Sagan",
+        book: "Contact"
+    },
+    {
+        text: "We can judge our progress by the courage of our questions and the depth of our answers, our willingness to embrace what is true rather than what feels good.",
+        author: "Carl Sagan",
+        book: "The Demon-Haunted World"
+    },
+    {
+        text: "You're an interesting species. An interesting mix. You're capable of such beautiful dreams, and such horrible nightmares.",
+        author: "Carl Sagan",
+        book: "Contact"
+    },
+    {
+        text: "Books permit us to voyage through time, to tap the wisdom of our ancestors.",
+        author: "Carl Sagan",
+        book: "Cosmos"
+    },
+    {
+        text: "I don't want to believe. I want to know.",
+        author: "Carl Sagan",
+        book: "Interview"
+    },
+    {
+        text: "But the fact that some geniuses were laughed at does not imply that all who are laughed at are geniuses. They laughed at Columbus, they laughed at Fulton, they laughed at the Wright brothers. But they also laughed at Bozo the Clown.",
+        author: "Carl Sagan",
+        book: "Broca's Brain"
+    },
+    {
+        text: "Frederick Douglass taught that literacy is the path from slavery to freedom. There are many kinds of slavery and many kinds of freedom, but reading is still the path.",
+        author: "Carl Sagan",
+        book: "The Demon-Haunted World"
+    },
     
     // Nikola Tesla
     {
