@@ -694,6 +694,51 @@ const quotes = [
         author: "Satoshi Nakamoto",
         book: "Bitcoin Mailing List"
     },
+    {
+        text: "It's very attractive to the libertarian viewpoint if we can explain it properly. I'm better with code than with words though.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Forum"
+    },
+    {
+        text: "We have proposed a system for electronic transactions without relying on trust.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Whitepaper"
+    },
+    {
+        text: "The price of any commodity tends to gravitate toward the production cost. If the price is below cost, then production slows down. If the price is above cost, profit can be made by generating and selling more.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Forum"
+    },
+    {
+        text: "Total circulation will be 21,000,000 coins. It'll be distributed to network nodes when they make blocks, with the amount cut in half every 4 years.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Forum"
+    },
+    {
+        text: "If the supply of money increases at the same rate that the number of people using it increases, prices remain stable.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Forum"
+    },
+    {
+        text: "The utility of the exchanges made possible by Bitcoin will far exceed the cost of electricity used. Therefore, not having Bitcoin would be the net waste.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Whitepaper"
+    },
+    {
+        text: "The design supports a tremendous variety of possible transaction types that I designed years ago. Escrow transactions, bonded contracts, third party arbitration, multi-party signature.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Forum"
+    },
+    {
+        text: "The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Whitepaper"
+    },
+    {
+        text: "As computers get faster and the total computing power applied to creating bitcoins increases, the difficulty increases proportionally to keep the total new production constant.",
+        author: "Satoshi Nakamoto",
+        book: "Bitcoin Forum"
+    },
     
     // George R.R. Martin
     {
