@@ -1515,6 +1515,106 @@ const quotes = [
         author: "Arthur C. Clarke",
         book: "Interview"
     },
+    {
+        text: "How inappropriate to call this planet 'Earth,' when it is clearly 'Ocean.'",
+        author: "Arthur C. Clarke",
+        book: "Attributed"
+    },
+    {
+        text: "One of the great tragedies of mankind is that morality has been hijacked by religion.",
+        author: "Arthur C. Clarke",
+        book: "Interview"
+    },
+    {
+        text: "Magic's just science that we don't understand yet.",
+        author: "Arthur C. Clarke",
+        book: "Attributed"
+    },
+    {
+        text: "I don't believe in astrology; I'm a Sagittarius and we're skeptical.",
+        author: "Arthur C. Clarke",
+        book: "Attributed"
+    },
+    {
+        text: "Information is not knowledge, knowledge is not wisdom, and wisdom is not foresight. Each grows out of the other, and we need them all.",
+        author: "Arthur C. Clarke",
+        book: "Speech"
+    },
+    {
+        text: "In my life I have found two things of priceless worth - learning and loving. Nothing else can possibly have the same lasting value.",
+        author: "Arthur C. Clarke",
+        book: "Rama II"
+    },
+    {
+        text: "It was the mark of a barbarian to destroy something one could not understand.",
+        author: "Arthur C. Clarke",
+        book: "2001: A Space Odyssey"
+    },
+    {
+        text: "They had taken the first step toward genuine friendship. They had exchanged vulnerabilities.",
+        author: "Arthur C. Clarke",
+        book: "2010: Odyssey Two"
+    },
+    {
+        text: "It may be that our role on this planet is not to worship God — but to create him.",
+        author: "Arthur C. Clarke",
+        book: "Attributed"
+    },
+    {
+        text: "It has yet to be proven that intelligence has any survival value.",
+        author: "Arthur C. Clarke",
+        book: "Interview"
+    },
+    {
+        text: "The more wonderful the means of communication, the more trivial, tawdry, or depressing its contents seemed to be.",
+        author: "Arthur C. Clarke",
+        book: "2001: A Space Odyssey"
+    },
+    {
+        text: "I am an optimist. Anyone interested in the future has to be otherwise he would simply shoot himself.",
+        author: "Arthur C. Clarke",
+        book: "Interview"
+    },
+    {
+        text: "Now I'm a scientific expert; that means I know nothing about absolutely everything.",
+        author: "Arthur C. Clarke",
+        book: "2001: A Space Odyssey"
+    },
+    {
+        text: "Science is the only religion of mankind.",
+        author: "Arthur C. Clarke",
+        book: "Childhood's End"
+    },
+    {
+        text: "A faith that cannot survive collision with the truth is not worth many regrets.",
+        author: "Arthur C. Clarke",
+        book: "The Exploration of Space"
+    },
+    {
+        text: "It must be wonderful to be seventeen, and to know everything.",
+        author: "Arthur C. Clarke",
+        book: "2010: Odyssey Two"
+    },
+    {
+        text: "The thing's hollow — it goes on forever — and — oh my God! — it's full of stars!",
+        author: "Arthur C. Clarke",
+        book: "2001: A Space Odyssey"
+    },
+    {
+        text: "There were some things that only time could cure. Evil men could be destroyed, but nothing could be done with good men who were deluded.",
+        author: "Arthur C. Clarke",
+        book: "Childhood's End"
+    },
+    {
+        text: "I will not be afraid because I understand... And understanding is happiness.",
+        author: "Arthur C. Clarke",
+        book: "Rama Revealed"
+    },
+    {
+        text: "Politicians should read science fiction, not westerns and detective stories.",
+        author: "Arthur C. Clarke",
+        book: "Interview"
+    },
     
     // Frank Herbert
     {
