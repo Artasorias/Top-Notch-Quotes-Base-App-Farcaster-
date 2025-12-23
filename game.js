@@ -343,6 +343,96 @@ const quotes = [
         author: "Arthur Conan Doyle",
         book: "His Last Bow"
     },
+    {
+        text: "It is a great thing to start life with a small number of really good books which are your very own.",
+        author: "Arthur Conan Doyle",
+        book: "Sherlock Holmes"
+    },
+    {
+        text: "It has long been an axiom of mine that the little things are infinitely the most important.",
+        author: "Arthur Conan Doyle",
+        book: "The Memoirs of Sherlock Holmes"
+    },
+    {
+        text: "You see, but you do not observe.",
+        author: "Arthur Conan Doyle",
+        book: "A Scandal in Bohemia"
+    },
+    {
+        text: "It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.",
+        author: "Arthur Conan Doyle",
+        book: "Sherlock Holmes"
+    },
+    {
+        text: "Mediocrity knows nothing higher than itself; but talent instantly recognizes genius.",
+        author: "Arthur Conan Doyle",
+        book: "The Valley of Fear"
+    },
+    {
+        text: "You have a grand gift for silence, Watson. It makes you quite invaluable as a companion.",
+        author: "Arthur Conan Doyle",
+        book: "The Complete Sherlock Holmes"
+    },
+    {
+        text: "The love of books is among the choicest gifts of the gods.",
+        author: "Arthur Conan Doyle",
+        book: "Sherlock Holmes"
+    },
+    {
+        text: "Watson. Come at once if convenient. If inconvenient, come all the same.",
+        author: "Arthur Conan Doyle",
+        book: "Adventure of the Creeping Man"
+    },
+    {
+        text: "What you do in this world is a matter of no consequence. The question is what can you make people believe you have done.",
+        author: "Arthur Conan Doyle",
+        book: "A Study in Scarlet"
+    },
+    {
+        text: "Excellent! I cried. Elementary, said he.",
+        author: "Arthur Conan Doyle",
+        book: "The Complete Sherlock Holmes"
+    },
+    {
+        text: "It may be that you are not yourself luminous, but that you are a conductor of light. Some people without possessing genius have a remarkable power of stimulating it.",
+        author: "Arthur Conan Doyle",
+        book: "Sherlock Holmes"
+    },
+    {
+        text: "I am a brain, Watson. The rest of me is a mere appendix.",
+        author: "Arthur Conan Doyle",
+        book: "The Adventure of the Mazarin Stone"
+    },
+    {
+        text: "To a great mind, nothing is little.",
+        author: "Arthur Conan Doyle",
+        book: "A Study in Scarlet"
+    },
+    {
+        text: "The game is afoot.",
+        author: "Arthur Conan Doyle",
+        book: "Adventure of the Abbey Grange"
+    },
+    {
+        text: "I am an omnivorous reader with a strangely retentive memory for trifles.",
+        author: "Arthur Conan Doyle",
+        book: "The Adventure of the Lion's Mane"
+    },
+    {
+        text: "Life is infinitely stranger than anything which the mind of man could invent.",
+        author: "Arthur Conan Doyle",
+        book: "A Case of Identity"
+    },
+    {
+        text: "There are always some lunatics about. It would be a dull world without them.",
+        author: "Arthur Conan Doyle",
+        book: "The Red-Headed League"
+    },
+    {
+        text: "The dog did nothing in the night-time. That was the curious incident.",
+        author: "Arthur Conan Doyle",
+        book: "Silver Blaze"
+    },
     
     // Douglas Adams
     {
