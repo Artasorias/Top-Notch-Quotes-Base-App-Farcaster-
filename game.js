@@ -1440,6 +1440,86 @@ const quotes = [
         author: "George Lucas",
         book: "Star Wars: The Phantom Menace"
     },
+    {
+        text: "The ability to speak does not make you intelligent.",
+        author: "George Lucas",
+        book: "Star Wars: The Phantom Menace"
+    },
+    {
+        text: "So this is how liberty dies. With thunderous applause.",
+        author: "George Lucas",
+        book: "Star Wars: Revenge of the Sith"
+    },
+    {
+        text: "May the Force be with you.",
+        author: "George Lucas",
+        book: "Star Wars: A New Hope"
+    },
+    {
+        text: "Train yourself to let go of the things you fear to lose.",
+        author: "George Lucas",
+        book: "Star Wars: Revenge of the Sith"
+    },
+    {
+        text: "Once you start down the dark path, forever will it dominate your destiny, consume you it will.",
+        author: "George Lucas",
+        book: "Star Wars: The Empire Strikes Back"
+    },
+    {
+        text: "Luminous beings are we, not this crude matter.",
+        author: "George Lucas",
+        book: "Star Wars: The Empire Strikes Back"
+    },
+    {
+        text: "Dreams are extremely important. You can't do it unless you imagine it.",
+        author: "George Lucas",
+        book: "Interview"
+    },
+    {
+        text: "Never tell me the odds!",
+        author: "George Lucas",
+        book: "Star Wars: The Empire Strikes Back"
+    },
+    {
+        text: "Someday you're going to have to learn to separate what seems to be important from what really is important.",
+        author: "George Lucas",
+        book: "Star Wars: A New Hope"
+    },
+    {
+        text: "In a dark place we find ourselves, and a little more knowledge lights our way.",
+        author: "George Lucas",
+        book: "Star Wars: Revenge of the Sith"
+    },
+    {
+        text: "A special effect without a story is a pretty boring thing.",
+        author: "George Lucas",
+        book: "Interview"
+    },
+    {
+        text: "Mentors have a way of seeing more of our faults than we would like. It's the only way we grow.",
+        author: "George Lucas",
+        book: "Star Wars: Attack of the Clones"
+    },
+    {
+        text: "Be mindful of the future. But not at the expense of the moment.",
+        author: "George Lucas",
+        book: "Star Wars: The Phantom Menace"
+    },
+    {
+        text: "I love you. I know.",
+        author: "George Lucas",
+        book: "Star Wars: The Empire Strikes Back"
+    },
+    {
+        text: "The suffering of one man is the suffering of all. Distances are irrelevant to injustice.",
+        author: "George Lucas",
+        book: "Star Wars"
+    },
+    {
+        text: "They were at the wrong place at the wrong time. Naturally they became heroes.",
+        author: "George Lucas",
+        book: "Star Wars: A New Hope"
+    },
     
     // Classic quotes
     {
