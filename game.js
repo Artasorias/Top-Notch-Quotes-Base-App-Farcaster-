@@ -1269,6 +1269,86 @@ const quotes = [
         author: "Isaac Asimov",
         book: "Asimov's Guide to Science"
     },
+    {
+        text: "In life, unlike chess, the game continues after checkmate.",
+        author: "Isaac Asimov",
+        book: "Attributed"
+    },
+    {
+        text: "Anti-intellectualism has been a constant thread winding its way through our political and cultural life, nurtured by the false notion that democracy means that 'my ignorance is just as good as your knowledge.'",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
+    {
+        text: "If my doctor told me I had only six minutes to live, I wouldn't brood. I'd type a little faster.",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
+    {
+        text: "Life is pleasant. Death is peaceful. It's the transition that's troublesome.",
+        author: "Isaac Asimov",
+        book: "Attributed"
+    },
+    {
+        text: "Any planet is 'Earth' to those that live on it.",
+        author: "Isaac Asimov",
+        book: "Pebble in the Sky"
+    },
+    {
+        text: "Violence is the last refuge of the incompetent.",
+        author: "Isaac Asimov",
+        book: "Foundation"
+    },
+    {
+        text: "Self-education is, I firmly believe, the only kind of education there is.",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
+    {
+        text: "I write for the same reason I breathe - because if I didn't, I would die.",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
+    {
+        text: "Those people who think they know everything are a great annoyance to those of us who do.",
+        author: "Isaac Asimov",
+        book: "Attributed"
+    },
+    {
+        text: "It is the obvious which is so difficult to see most of the time. People say 'It's as plain as the nose on your face.' But how much of the nose on your face can you see, unless someone holds a mirror up to you?",
+        author: "Isaac Asimov",
+        book: "I, Robot"
+    },
+    {
+        text: "Intelligence is an accident of evolution, and not necessarily an advantage.",
+        author: "Isaac Asimov",
+        book: "Attributed"
+    },
+    {
+        text: "To surrender to ignorance and call it God has always been premature, and it remains premature today.",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
+    {
+        text: "You must keep sending work out; you must never let a manuscript do nothing but eat its head off in a drawer.",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
+    {
+        text: "They won't listen. Do you know why? Because they have certain fixed notions about the past. They don't want the truth; they want their traditions.",
+        author: "Isaac Asimov",
+        book: "Pebble in the Sky"
+    },
+    {
+        text: "People think of education as something they can finish.",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
+    {
+        text: "I am not a speed reader. I am a speed understander.",
+        author: "Isaac Asimov",
+        book: "Interview"
+    },
     
     // Carl Sagan
     {
