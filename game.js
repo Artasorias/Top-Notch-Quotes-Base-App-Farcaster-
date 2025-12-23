@@ -1469,6 +1469,116 @@ const quotes = [
         author: "Honoré de Balzac",
         book: "Lost Illusions"
     },
+    {
+        text: "Reading brings us unknown friends.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    {
+        text: "All happiness depends on courage and work.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Laws are spider webs through which the big flies pass and the little ones get caught.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    {
+        text: "It is always assumed by the empty-headed, who chatter about themselves for want of something better, that people who do not discuss their affairs openly must have something to hide.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Some day you will find out that there is far more happiness in another's happiness than in your own.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Every moment of happiness requires a great amount of ignorance.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Our greatest fears lie in anticipation.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Marriage must fight constantly against a monster which devours everything: routine.",
+        author: "Honoré de Balzac",
+        book: "Physiologie du mariage"
+    },
+    {
+        text: "For a woman knows the face of the man she loves like a sailor knows the open sea.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "The heart of a mother is a deep abyss at the bottom of which you will always find forgiveness.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "There is no such thing as a great talent without great willpower.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    {
+        text: "I am not deep, but I am very wide.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    {
+        text: "I'm a great poet. I don't put my poems on paper: they consist of actions and feelings.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Equality may perhaps be a right, but no power on earth can ever turn it into a fact.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    {
+        text: "Nothing so fortifies a friendship as a belief on the part of one friend that he is superior to the other.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Who is to decide which is the grimmer sight: withered hearts, or empty skulls?",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "A letter is a soul, so faithful an echo of the speaking voice that to the sensitive it is among the richest treasures of love.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "An unfulfilled vocation drains the color from a man's entire existence.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    {
+        text: "True love is eternal, infinite and always like itself. It's always equal and pure.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Passion is born deaf and dumb.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
+    {
+        text: "Power is not revealed by striking hard or often, but by striking true.",
+        author: "Honoré de Balzac",
+        book: "Lost Illusions"
+    },
+    {
+        text: "Our worst misfortunes never happen, and most miseries lie in anticipation.",
+        author: "Honoré de Balzac",
+        book: "Père Goriot"
+    },
     
     // Liu Cixin
     {
