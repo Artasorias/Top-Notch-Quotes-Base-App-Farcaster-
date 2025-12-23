@@ -899,14 +899,99 @@ const quotes = [
         book: "Something Ends, Something Begins"
     },
     {
-        text: "If I'm to choose between one evil and another, I'd rather not choose at all.",
+        text: "Hatred and prejudice will never be eradicated. And witch hunts will never be about witches.",
         author: "Geralt of Rivia",
         book: "The Last Wish"
     },
     {
-        text: "Hatred and prejudice will never be eradicated. And witch hunts will never be about witches.",
-        author: "Geralt of Rivia",
+        text: "To be neutral does not mean to be indifferent or insensitive. You don't have to kill your feelings. It's enough to kill hatred within yourself.",
+        author: "Andrzej Sapkowski",
+        book: "Blood of Elves"
+    },
+    {
+        text: "There is never a second opportunity to make a first impression.",
+        author: "Andrzej Sapkowski",
+        book: "Sword of Destiny"
+    },
+    {
+        text: "You've mistaken the stars reflected on the surface of the lake at night for the heavens.",
+        author: "Andrzej Sapkowski",
+        book: "Blood of Elves"
+    },
+    {
+        text: "I've understood that the sun shines differently when something changes. The sun shines differently, but it will continue to shine.",
+        author: "Andrzej Sapkowski",
         book: "The Last Wish"
+    },
+    {
+        text: "There's a grain of truth in every fairy tale.",
+        author: "Andrzej Sapkowski",
+        book: "The Last Wish"
+    },
+    {
+        text: "Mistakes are also important to me. I don't cross them out of my life, or memory. And I never blame others for them.",
+        author: "Andrzej Sapkowski",
+        book: "Blood of Elves"
+    },
+    {
+        text: "I know you're almost forty, look almost thirty, think you're just over twenty and act as though you're barely ten.",
+        author: "Andrzej Sapkowski",
+        book: "Blood of Elves"
+    },
+    {
+        text: "All decent predictions rhyme.",
+        author: "Andrzej Sapkowski",
+        book: "The Last Wish"
+    },
+    {
+        text: "What is truth? The negation of lies? Or the statement of a fact? And if the fact is a lie, what then is the truth?",
+        author: "Andrzej Sapkowski",
+        book: "Sword of Destiny"
+    },
+    {
+        text: "Only death can finish the fight, everything else only interrupts the fighting.",
+        author: "Andrzej Sapkowski",
+        book: "The Witcher"
+    },
+    {
+        text: "It's better to die than to live in the knowledge that you've done something that needs forgiveness.",
+        author: "Andrzej Sapkowski",
+        book: "Blood of Elves"
+    },
+    {
+        text: "Only Evil and Greater Evil exist and beyond them, in the shadows, lurks True Evil.",
+        author: "Andrzej Sapkowski",
+        book: "The Last Wish"
+    },
+    {
+        text: "When you know about something it stops being a nightmare. When you know how to fight something, it stops being so threatening.",
+        author: "Andrzej Sapkowski",
+        book: "Blood of Elves"
+    },
+    {
+        text: "They weren't lying. They firmly believed it all. Which doesn't change the facts.",
+        author: "Andrzej Sapkowski",
+        book: "The Last Wish"
+    },
+    {
+        text: "It is easy to kill with a bow. How easy it is to release the bowstring and think, it is not I, it is the arrow. But the arrow does not dream anything in the night.",
+        author: "Andrzej Sapkowski",
+        book: "Sword of Destiny"
+    },
+    {
+        text: "They say silence is golden. Maybe it is, although I'm not sure it's worth that much. It has its price certainly; you have to pay for it.",
+        author: "Andrzej Sapkowski",
+        book: "The Last Wish"
+    },
+    {
+        text: "Magic is Chaos, Art and Science. It is a curse, a blessing and progress. It all depends on who uses magic, how they use it, and to what purpose.",
+        author: "Andrzej Sapkowski",
+        book: "Blood of Elves"
+    },
+    {
+        text: "That's the role of poetry. To say what others cannot utter.",
+        author: "Andrzej Sapkowski",
+        book: "Time of Contempt"
     },
     
     // Franz Kafka
