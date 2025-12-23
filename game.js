@@ -1001,7 +1001,7 @@ const quotes = [
         book: "Letter to Oskar Pollak"
     },
     {
-        text: "Don't bend; don't water it down; don't try to make it logical; don't edit your own soul according to the fashion.",
+        text: "Don't bend; don't water it down; don't try to make it logical; don't edit your own soul according to the fashion. Rather, follow your most intense obsessions mercilessly.",
         author: "Franz Kafka",
         book: "Letters"
     },
@@ -1014,6 +1014,111 @@ const quotes = [
         text: "Start with what is right rather than what is acceptable.",
         author: "Franz Kafka",
         book: "Diaries"
+    },
+    {
+        text: "I am a cage, in search of a bird.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "Many a book is like a key to unknown chambers within the castle of one's own self.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "Youth is happy because it has the capacity to see beauty. Anyone who keeps the ability to see beauty never grows old.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "I cannot make you understand. I cannot make anyone understand what is happening inside me. I cannot even explain it to myself.",
+        author: "Franz Kafka",
+        book: "The Metamorphosis"
+    },
+    {
+        text: "I write differently from what I speak, I speak differently from what I think, I think differently from the way I ought to think, and so it all proceeds into deepest darkness.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "The meaning of life is that it stops.",
+        author: "Franz Kafka",
+        book: "Diaries"
+    },
+    {
+        text: "All language is but a poor translation.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "A non-writing writer is a monster courting insanity.",
+        author: "Franz Kafka",
+        book: "Letter to Max Brod"
+    },
+    {
+        text: "You do not need to leave your room. Remain sitting at your table and listen. The world will freely offer itself to you to be unmasked.",
+        author: "Franz Kafka",
+        book: "The Zürau Aphorisms"
+    },
+    {
+        text: "You are the knife I turn inside myself; that is love. That, my dear, is love.",
+        author: "Franz Kafka",
+        book: "Letters to Milena"
+    },
+    {
+        text: "Slept, awoke, slept, awoke, miserable life.",
+        author: "Franz Kafka",
+        book: "Diaries"
+    },
+    {
+        text: "By believing passionately in something that still does not exist, we create it. The nonexistent is whatever we have not sufficiently desired.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "It's only because of their stupidity that they're able to be so sure of themselves.",
+        author: "Franz Kafka",
+        book: "The Trial"
+    },
+    {
+        text: "He is terribly afraid of dying because he hasn't yet lived.",
+        author: "Franz Kafka",
+        book: "Diaries"
+    },
+    {
+        text: "Paths are made by walking.",
+        author: "Franz Kafka",
+        book: "The Trial"
+    },
+    {
+        text: "Books are a narcotic.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "I miss you deeply, unfathomably, senselessly, terribly.",
+        author: "Franz Kafka",
+        book: "Letters to Milena"
+    },
+    {
+        text: "I think we ought to read only the kind of books that wound and stab us.",
+        author: "Franz Kafka",
+        book: "Letter to Oskar Pollak"
+    },
+    {
+        text: "I never wish to be easily defined. I'd rather float over other people's minds as something strictly fluid and non-perceivable.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "I usually solve problems by letting them devour me.",
+        author: "Franz Kafka",
+        book: "Letters"
+    },
+    {
+        text: "Writing is utter solitude, the descent into the cold abyss of oneself.",
+        author: "Franz Kafka",
+        book: "Letters"
     },
     
     // Hari Seldon (Isaac Asimov)
