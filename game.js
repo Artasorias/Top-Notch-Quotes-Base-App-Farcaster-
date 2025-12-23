@@ -97,6 +97,66 @@ const quotes = [
         author: "Gandalf",
         book: "The Return of the King"
     },
+    {
+        text: "He that breaks a thing to find out what it is has left the path of wisdom.",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "It is not despair, for despair is only for those who see the end beyond all doubt. We do not.",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "For even the very wise cannot see all ends.",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "Well, here at last, dear friends, on the shores of the Sea comes the end of our fellowship in Middle-earth. Go in peace!",
+        author: "Gandalf",
+        book: "The Return of the King"
+    },
+    {
+        text: "I am a servant of the Secret Fire, wielder of the flame of Anor. The dark fire will not avail you, flame of Udûn. Go back to the Shadow!",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "Fly, you fools!",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "Fool of a Took! This is a serious journey, not a hobbit walking-party. Throw yourself in next time, and then you will be no further nuisance.",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "Courage will now be your best defence against the storm that is at hand—that and such hope as I bring.",
+        author: "Gandalf",
+        book: "The Return of the King"
+    },
+    {
+        text: "Go back to the abyss! Fall into nothingness that awaits you and your master!",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "Saruman, only one hand at a time can wield the One, and you know that well, so do not trouble to say we!",
+        author: "Gandalf",
+        book: "The Fellowship of the Ring"
+    },
+    {
+        text: "If we fail, we fall. If we succeed - then we will face the next task.",
+        author: "Gandalf",
+        book: "The Two Towers"
+    },
+    {
+        text: "He did not mean for a lot of things to happen... but they did.",
+        author: "Frodo Baggins",
+        book: "The Two Towers"
+    },
     
     // Albert Einstein
     {
