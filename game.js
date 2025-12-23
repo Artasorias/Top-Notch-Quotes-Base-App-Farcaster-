@@ -1403,6 +1403,96 @@ const quotes = [
         author: "Nikola Tesla",
         book: "Interview"
     },
+    {
+        text: "Of all things, I liked books best.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "The day science begins to study non-physical phenomena, it will make more progress in one decade than in all the previous centuries of its existence.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    {
+        text: "The scientists of today think deeply instead of clearly. One must be sane to think clearly, but one can think deeply and be quite insane.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    {
+        text: "My brain is only a receiver, in the Universe there is a core from which we obtain knowledge, strength and inspiration. I have not penetrated into the secrets of this core, but I know that it exists.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    {
+        text: "If your hate could be turned into electricity, it would light up the whole world.",
+        author: "Nikola Tesla",
+        book: "Attributed"
+    },
+    {
+        text: "I do not think you can name many great inventions that have been made by married men.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    {
+        text: "Peace can only come as a natural consequence of universal enlightenment.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "Everyone should consider his body as a priceless gift from one whom he loves above all, a marvelous work of art, of indescribable beauty.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "I do not think there is any thrill that can go through the human heart like that felt by the inventor as he sees some creation of the brain unfolding to success.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "All that was great in the past was ridiculed, condemned, combated, suppressed — only to emerge all the more powerfully, all the more triumphantly from the struggle.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "Life is and will ever remain an equation incapable of solution, but it contains certain known factors.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "You may live to see man-made horrors beyond your comprehension.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    {
+        text: "What one man calls God, another calls the laws of physics.",
+        author: "Nikola Tesla",
+        book: "Attributed"
+    },
+    {
+        text: "We crave for new sensations but soon become indifferent to them. The wonders of yesterday are today common occurrences.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "Invention is the most important product of man's creative brain. The ultimate purpose is the complete mastery of mind over the material world.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
+    {
+        text: "Today's scientists have substituted mathematics for experiments, and they wander off through equation after equation, and eventually build a structure which has no relation to reality.",
+        author: "Nikola Tesla",
+        book: "Interview"
+    },
+    {
+        text: "The individual is ephemeral, races and nations come and pass away, but man remains.",
+        author: "Nikola Tesla",
+        book: "My Inventions"
+    },
     
     // Arthur C. Clarke
     {
