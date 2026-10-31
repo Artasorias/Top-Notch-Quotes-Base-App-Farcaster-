@@ -2470,6 +2470,14 @@ function handleSwipe() {
 
 // Keyboard support
 document.addEventListener('keydown', (e) => {
+    const target = e.target;
+    const isInteractive = target instanceof Element && target.closest(
+        'button, a, input, textarea, select, [contenteditable="true"], [role="textbox"]'
+    );
+
+    // Preserve native keyboard behavior for controls and text-entry elements.
+    if (isInteractive) return;
+
     if (e.code === 'Space' || e.code === 'Enter') {
         e.preventDefault();
         displayQuote(getRandomQuote());
